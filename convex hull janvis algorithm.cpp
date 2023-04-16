@@ -66,11 +66,17 @@ int rotation(Point p1 , Point p2 , Point p3)
 	if(val < 0)
 	{
 		return 1;
+		// right turn
 	}
 	if(val > 0)
 	{
 		return -1;
+		// left turn
 	}
+	
+	// collinear case not yet handled. 
+	// need to compare the distances between points.
+	
 	return 0;
 
 }
