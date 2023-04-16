@@ -128,6 +128,8 @@ void solve()
 
 	}
 	while(!equal(l ,points[0]));
+	
+	
 	cout << "Convex Hull" << endl;
 	for(Point p:convexhull)
 	{
